@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>contacts</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="page">
+      <div class="page-header cf">
+        <h2>Contacts</h2> 
+        <h3 id="total">Total:</h3>
+
+      </div>
+      <ul class="contact-list"  id="paginated-list">
+        <li class="contact-item cf" id="new">
+        </li>
+
+      </ul>
+      <!-- Add pagination links in this section -->
+      <nav class="pagination-container">
+        <button class="pagination-button" id="prev-button" title="Previous page" aria-label="Previous page">
+          &lt;
+        </button>
+        
+        <div id="pagination-numbers">
+        </div>
+        
+        <button class="pagination-button" id="next-button" title="Next page" aria-label="Next page">
+          &gt;
+        </button>
+      </nav>
+    </div>
+   
+    <script src="js/data.js"></script>
+  </body>
+</html>
+
